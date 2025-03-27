@@ -22,18 +22,10 @@
 </p>
 
 
-Implementação de medidas mais rigorosas na identificação dos passageiros e motoristas, sendo por documentação seja ultilizada com mais frequência.
-Botão de emergência mais visível e funcional.
+Nosso projeto propõe a criação de um comprovante de pagamento para a plataforma Uber.
 
-Segurança Gamificada transforma a segurança do app da Uber em um jogo interativo, incentivando motoristas e passageiros a 
-adotarem boas práticas de forma divertida e recompensadora.
+Atualmente, muitos golpes são aplicados durante o pagamento de corridas, especialmente quando o passageiro escolhe a opção de pagar em dinheiro. Nessas situações, não há uma forma clara e segura de comprovar que o pagamento foi realmente efetuado, seja em espécie ou via Pix diretamente ao motorista.
 
-O Problema
-Muitos usuários ignoram medidas de segurança por preguiça ou falta de incentivo.
-Motoristas podem não seguir diretrizes, como verificar passageiros ou respeitar limites de velocidade.
-Passageiros podem negligenciar segurança pessoal, como compartilhar localização com contatos.
-💡 Solução? Criar um sistema de "Missões de Segurança" que recompensa boas práticas!
+Para solucionar esse problema, desenvolvemos uma funcionalidade que permite ao usuário registrar um comprovante de pagamento. Essa comprovação pode ser feita por meio de uma foto — tirada no momento ou selecionada da galeria — que servirá como evidência do pagamento. A imagem será salva no banco de dados, associada ao ID do usuário, garantindo segurança e rastreabilidade.
 
-Como Funciona?
-O app cria um sistema de missões diárias, semanais e mensais com desafios relacionados à segurança. Ao completar essas missões, motoristas e 
-passageiros ganham pontos, que podem ser trocados por benefícios exclusivos.
+
